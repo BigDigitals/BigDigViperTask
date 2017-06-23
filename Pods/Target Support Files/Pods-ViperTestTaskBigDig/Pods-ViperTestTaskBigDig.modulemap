@@ -1,0 +1,6 @@
+framework module Pods_ViperTestTaskBigDig {
+  umbrella header "Pods-ViperTestTaskBigDig-umbrella.h"
+
+  export *
+  module * { export * }
+}

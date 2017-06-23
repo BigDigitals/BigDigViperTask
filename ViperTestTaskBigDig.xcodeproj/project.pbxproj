@@ -8,22 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		C1B01A611EFCDE2E0047BF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01A601EFCDE2E0047BF4B /* AppDelegate.swift */; };
-		C1B01A631EFCDE2E0047BF4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01A621EFCDE2E0047BF4B /* ViewController.swift */; };
+		C1B01A631EFCDE2E0047BF4B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01A621EFCDE2E0047BF4B /* SignInViewController.swift */; };
 		C1B01A661EFCDE2E0047BF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B01A641EFCDE2E0047BF4B /* Main.storyboard */; };
 		C1B01A691EFCDE2F0047BF4B /* ViperTestTaskBigDig.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1B01A671EFCDE2F0047BF4B /* ViperTestTaskBigDig.xcdatamodeld */; };
 		C1B01A6B1EFCDE2F0047BF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B01A6A1EFCDE2F0047BF4B /* Assets.xcassets */; };
 		C1B01A6E1EFCDE2F0047BF4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B01A6C1EFCDE2F0047BF4B /* LaunchScreen.storyboard */; };
+		C1B01AA31EFCE4ED0047BF4B /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AA21EFCE4ED0047BF4B /* SignInInteractor.swift */; };
+		C1B01AA51EFCE5110047BF4B /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AA41EFCE5110047BF4B /* SignInPresenter.swift */; };
+		C1B01AA71EFCE6020047BF4B /* SignInPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AA61EFCE6020047BF4B /* SignInPresenterProtocol.swift */; };
+		C1B01AA91EFCE6210047BF4B /* SignInInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AA81EFCE6210047BF4B /* SignInInteractorProtocol.swift */; };
+		C1B01AAD1EFCF1680047BF4B /* SignInWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AAC1EFCF1680047BF4B /* SignInWireFrame.swift */; };
+		C1B01AAF1EFCF18C0047BF4B /* SignInWireFrameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AAE1EFCF18C0047BF4B /* SignInWireFrameProtocol.swift */; };
+		C1B01AB11EFCF5180047BF4B /* RootWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AB01EFCF5180047BF4B /* RootWireFrame.swift */; };
+		C1B01AB31EFD0B0B0047BF4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AB21EFD0B0B0047BF4B /* Constants.swift */; };
+		C1B01AB51EFD3B8B0047BF4B /* PicturesListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AB41EFD3B8B0047BF4B /* PicturesListCollectionViewController.swift */; };
+		C1B01AB71EFD3C140047BF4B /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AB61EFD3C140047BF4B /* PictureCell.swift */; };
+		C1B01ABA1EFD3D180047BF4B /* PicturesListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AB91EFD3D180047BF4B /* PicturesListInteractor.swift */; };
+		C1B01ABC1EFD3D280047BF4B /* PicturesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01ABB1EFD3D280047BF4B /* PicturesListPresenter.swift */; };
+		C1B01ABE1EFD3D890047BF4B /* PicturesListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01ABD1EFD3D890047BF4B /* PicturesListPresenterProtocol.swift */; };
+		C1B01AC01EFD3D9F0047BF4B /* PicturesListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01ABF1EFD3D9F0047BF4B /* PicturesListInteractorProtocol.swift */; };
+		C1B01AC21EFD3DDA0047BF4B /* PicturesListWireFrameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AC11EFD3DDA0047BF4B /* PicturesListWireFrameProtocol.swift */; };
+		C1B01AC41EFD3DF50047BF4B /* PicturesListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AC31EFD3DF50047BF4B /* PicturesListWireFrame.swift */; };
+		C1B01AC61EFD40B20047BF4B /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B01AC51EFD40B20047BF4B /* Picture.swift */; };
+		E49A00FB819A9139DA324C07 /* Pods_ViperTestTaskBigDig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A620E63F48CF43F86004D65 /* Pods_ViperTestTaskBigDig.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06671753CB7EE4672BAB557E /* Pods-ViperTestTaskBigDig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperTestTaskBigDig.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperTestTaskBigDig/Pods-ViperTestTaskBigDig.debug.xcconfig"; sourceTree = "<group>"; };
+		3A620E63F48CF43F86004D65 /* Pods_ViperTestTaskBigDig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperTestTaskBigDig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B01A5D1EFCDE2E0047BF4B /* ViperTestTaskBigDig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperTestTaskBigDig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B01A601EFCDE2E0047BF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1B01A621EFCDE2E0047BF4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1B01A621EFCDE2E0047BF4B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../../../SignInViewController.swift; sourceTree = "<group>"; };
 		C1B01A651EFCDE2E0047BF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1B01A681EFCDE2F0047BF4B /* ViperTestTaskBigDig.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViperTestTaskBigDig.xcdatamodel; sourceTree = "<group>"; };
 		C1B01A6A1EFCDE2F0047BF4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1B01A6D1EFCDE2F0047BF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1B01A6F1EFCDE2F0047BF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B01AA21EFCE4ED0047BF4B /* SignInInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		C1B01AA41EFCE5110047BF4B /* SignInPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		C1B01AA61EFCE6020047BF4B /* SignInPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInPresenterProtocol.swift; sourceTree = "<group>"; };
+		C1B01AA81EFCE6210047BF4B /* SignInInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInInteractorProtocol.swift; sourceTree = "<group>"; };
+		C1B01AAC1EFCF1680047BF4B /* SignInWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWireFrame.swift; sourceTree = "<group>"; };
+		C1B01AAE1EFCF18C0047BF4B /* SignInWireFrameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWireFrameProtocol.swift; sourceTree = "<group>"; };
+		C1B01AB01EFCF5180047BF4B /* RootWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireFrame.swift; sourceTree = "<group>"; };
+		C1B01AB21EFD0B0B0047BF4B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C1B01AB41EFD3B8B0047BF4B /* PicturesListCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesListCollectionViewController.swift; sourceTree = "<group>"; };
+		C1B01AB61EFD3C140047BF4B /* PictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		C1B01AB91EFD3D180047BF4B /* PicturesListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesListInteractor.swift; sourceTree = "<group>"; };
+		C1B01ABB1EFD3D280047BF4B /* PicturesListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesListPresenter.swift; sourceTree = "<group>"; };
+		C1B01ABD1EFD3D890047BF4B /* PicturesListPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesListPresenterProtocol.swift; sourceTree = "<group>"; };
+		C1B01ABF1EFD3D9F0047BF4B /* PicturesListInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesListInteractorProtocol.swift; sourceTree = "<group>"; };
+		C1B01AC11EFD3DDA0047BF4B /* PicturesListWireFrameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesListWireFrameProtocol.swift; sourceTree = "<group>"; };
+		C1B01AC31EFD3DF50047BF4B /* PicturesListWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesListWireFrame.swift; sourceTree = "<group>"; };
+		C1B01AC51EFD40B20047BF4B /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		C39686653AD5F608EB063C8D /* Pods-ViperTestTaskBigDig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperTestTaskBigDig.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperTestTaskBigDig/Pods-ViperTestTaskBigDig.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49A00FB819A9139DA324C07 /* Pods_ViperTestTaskBigDig.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +81,8 @@
 			children = (
 				C1B01A5F1EFCDE2E0047BF4B /* ViperTestTaskBigDig */,
 				C1B01A5E1EFCDE2E0047BF4B /* Products */,
+				E6D5EA8E8F04B4E82B19E1BA /* Pods */,
+				F6C151A4F7059A5900520E61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				C1B01A601EFCDE2E0047BF4B /* AppDelegate.swift */,
-				C1B01A621EFCDE2E0047BF4B /* ViewController.swift */,
+				C1B01AB01EFCF5180047BF4B /* RootWireFrame.swift */,
+				C1B01A7B1EFCE0A30047BF4B /* Common */,
+				C1B01A7C1EFCE0A30047BF4B /* Entities */,
+				C1B01A831EFCE16C0047BF4B /* Modules */,
 				C1B01A641EFCDE2E0047BF4B /* Main.storyboard */,
 				C1B01A6A1EFCDE2F0047BF4B /* Assets.xcassets */,
 				C1B01A6C1EFCDE2F0047BF4B /* LaunchScreen.storyboard */,
@@ -67,6 +111,301 @@
 			path = ViperTestTaskBigDig;
 			sourceTree = "<group>";
 		};
+		C1B01A7B1EFCE0A30047BF4B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C1B01A7C1EFCE0A30047BF4B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01AB21EFD0B0B0047BF4B /* Constants.swift */,
+				C1B01AC51EFD40B20047BF4B /* Picture.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		C1B01A831EFCE16C0047BF4B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01A841EFCE16C0047BF4B /* GifImagesGeneration */,
+				C1B01A8A1EFCE16C0047BF4B /* NewPicture */,
+				C1B01A901EFCE16C0047BF4B /* PicturesList */,
+				C1B01A961EFCE16C0047BF4B /* SignIn */,
+				C1B01A9C1EFCE16C0047BF4B /* SignUp */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C1B01A841EFCE16C0047BF4B /* GifImagesGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01A851EFCE16C0047BF4B /* Interactor */,
+				C1B01A861EFCE16C0047BF4B /* Presenter */,
+				C1B01A871EFCE16C0047BF4B /* Protocols */,
+				C1B01A881EFCE16C0047BF4B /* View */,
+				C1B01A891EFCE16C0047BF4B /* WireFrame */,
+			);
+			path = GifImagesGeneration;
+			sourceTree = "<group>";
+		};
+		C1B01A851EFCE16C0047BF4B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C1B01A861EFCE16C0047BF4B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C1B01A871EFCE16C0047BF4B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C1B01A881EFCE16C0047BF4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1B01A891EFCE16C0047BF4B /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		C1B01A8A1EFCE16C0047BF4B /* NewPicture */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01A8B1EFCE16C0047BF4B /* Interactor */,
+				C1B01A8C1EFCE16C0047BF4B /* Presenter */,
+				C1B01A8D1EFCE16C0047BF4B /* Protocols */,
+				C1B01A8E1EFCE16C0047BF4B /* View */,
+				C1B01A8F1EFCE16C0047BF4B /* WireFrame */,
+			);
+			path = NewPicture;
+			sourceTree = "<group>";
+		};
+		C1B01A8B1EFCE16C0047BF4B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C1B01A8C1EFCE16C0047BF4B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C1B01A8D1EFCE16C0047BF4B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C1B01A8E1EFCE16C0047BF4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1B01A8F1EFCE16C0047BF4B /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		C1B01A901EFCE16C0047BF4B /* PicturesList */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01A911EFCE16C0047BF4B /* Interactor */,
+				C1B01A921EFCE16C0047BF4B /* Presenter */,
+				C1B01A931EFCE16C0047BF4B /* Protocols */,
+				C1B01A941EFCE16C0047BF4B /* View */,
+				C1B01A951EFCE16C0047BF4B /* WireFrame */,
+			);
+			path = PicturesList;
+			sourceTree = "<group>";
+		};
+		C1B01A911EFCE16C0047BF4B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01AB91EFD3D180047BF4B /* PicturesListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C1B01A921EFCE16C0047BF4B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01ABB1EFD3D280047BF4B /* PicturesListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C1B01A931EFCE16C0047BF4B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01ABD1EFD3D890047BF4B /* PicturesListPresenterProtocol.swift */,
+				C1B01ABF1EFD3D9F0047BF4B /* PicturesListInteractorProtocol.swift */,
+				C1B01AC11EFD3DDA0047BF4B /* PicturesListWireFrameProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C1B01A941EFCE16C0047BF4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01AB41EFD3B8B0047BF4B /* PicturesListCollectionViewController.swift */,
+				C1B01AB61EFD3C140047BF4B /* PictureCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1B01A951EFCE16C0047BF4B /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01AC31EFD3DF50047BF4B /* PicturesListWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		C1B01A961EFCE16C0047BF4B /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01A971EFCE16C0047BF4B /* Interactor */,
+				C1B01A981EFCE16C0047BF4B /* Presenter */,
+				C1B01A991EFCE16C0047BF4B /* Protocols */,
+				C1B01A9A1EFCE16C0047BF4B /* View */,
+				C1B01A9B1EFCE16C0047BF4B /* WireFrame */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		C1B01A971EFCE16C0047BF4B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01AA21EFCE4ED0047BF4B /* SignInInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C1B01A981EFCE16C0047BF4B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01AA41EFCE5110047BF4B /* SignInPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C1B01A991EFCE16C0047BF4B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01AA61EFCE6020047BF4B /* SignInPresenterProtocol.swift */,
+				C1B01AA81EFCE6210047BF4B /* SignInInteractorProtocol.swift */,
+				C1B01AAE1EFCF18C0047BF4B /* SignInWireFrameProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C1B01A9A1EFCE16C0047BF4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01A621EFCDE2E0047BF4B /* SignInViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1B01A9B1EFCE16C0047BF4B /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01AAC1EFCF1680047BF4B /* SignInWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		C1B01A9C1EFCE16C0047BF4B /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				C1B01A9D1EFCE16C0047BF4B /* Interactor */,
+				C1B01A9E1EFCE16C0047BF4B /* Presenter */,
+				C1B01A9F1EFCE16C0047BF4B /* Protocols */,
+				C1B01AA01EFCE16C0047BF4B /* View */,
+				C1B01AA11EFCE16C0047BF4B /* WireFrame */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		C1B01A9D1EFCE16C0047BF4B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C1B01A9E1EFCE16C0047BF4B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C1B01A9F1EFCE16C0047BF4B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C1B01AA01EFCE16C0047BF4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1B01AA11EFCE16C0047BF4B /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		E6D5EA8E8F04B4E82B19E1BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06671753CB7EE4672BAB557E /* Pods-ViperTestTaskBigDig.debug.xcconfig */,
+				C39686653AD5F608EB063C8D /* Pods-ViperTestTaskBigDig.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6C151A4F7059A5900520E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A620E63F48CF43F86004D65 /* Pods_ViperTestTaskBigDig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +413,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B01A721EFCDE2F0047BF4B /* Build configuration list for PBXNativeTarget "ViperTestTaskBigDig" */;
 			buildPhases = (
+				C4AB4C387B406E463C00CA44 /* [CP] Check Pods Manifest.lock */,
 				C1B01A591EFCDE2E0047BF4B /* Sources */,
 				C1B01A5A1EFCDE2E0047BF4B /* Frameworks */,
 				C1B01A5B1EFCDE2E0047BF4B /* Resources */,
+				895D7588B7F60B2886D4C6A7 /* [CP] Embed Pods Frameworks */,
+				1DF5605305BC208E3000B26E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,14 +477,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF5605305BC208E3000B26E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperTestTaskBigDig/Pods-ViperTestTaskBigDig-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895D7588B7F60B2886D4C6A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperTestTaskBigDig/Pods-ViperTestTaskBigDig-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4AB4C387B406E463C00CA44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1B01A591EFCDE2E0047BF4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B01AA31EFCE4ED0047BF4B /* SignInInteractor.swift in Sources */,
+				C1B01AB11EFCF5180047BF4B /* RootWireFrame.swift in Sources */,
+				C1B01ABE1EFD3D890047BF4B /* PicturesListPresenterProtocol.swift in Sources */,
+				C1B01AB51EFD3B8B0047BF4B /* PicturesListCollectionViewController.swift in Sources */,
 				C1B01A691EFCDE2F0047BF4B /* ViperTestTaskBigDig.xcdatamodeld in Sources */,
-				C1B01A631EFCDE2E0047BF4B /* ViewController.swift in Sources */,
+				C1B01A631EFCDE2E0047BF4B /* SignInViewController.swift in Sources */,
 				C1B01A611EFCDE2E0047BF4B /* AppDelegate.swift in Sources */,
+				C1B01AC41EFD3DF50047BF4B /* PicturesListWireFrame.swift in Sources */,
+				C1B01AAD1EFCF1680047BF4B /* SignInWireFrame.swift in Sources */,
+				C1B01AA91EFCE6210047BF4B /* SignInInteractorProtocol.swift in Sources */,
+				C1B01ABC1EFD3D280047BF4B /* PicturesListPresenter.swift in Sources */,
+				C1B01ABA1EFD3D180047BF4B /* PicturesListInteractor.swift in Sources */,
+				C1B01AC21EFD3DDA0047BF4B /* PicturesListWireFrameProtocol.swift in Sources */,
+				C1B01AA71EFCE6020047BF4B /* SignInPresenterProtocol.swift in Sources */,
+				C1B01AAF1EFCF18C0047BF4B /* SignInWireFrameProtocol.swift in Sources */,
+				C1B01AA51EFCE5110047BF4B /* SignInPresenter.swift in Sources */,
+				C1B01AC61EFD40B20047BF4B /* Picture.swift in Sources */,
+				C1B01AC01EFD3D9F0047BF4B /* PicturesListInteractorProtocol.swift in Sources */,
+				C1B01AB71EFD3C140047BF4B /* PictureCell.swift in Sources */,
+				C1B01AB31EFD0B0B0047BF4B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +670,12 @@
 		};
 		C1B01A731EFCDE2F0047BF4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06671753CB7EE4672BAB557E /* Pods-ViperTestTaskBigDig.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z87YVCG8CV;
 				INFOPLIST_FILE = ViperTestTaskBigDig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bigdig.ViperTestTaskBigDig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,10 +685,12 @@
 		};
 		C1B01A741EFCDE2F0047BF4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39686653AD5F608EB063C8D /* Pods-ViperTestTaskBigDig.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z87YVCG8CV;
 				INFOPLIST_FILE = ViperTestTaskBigDig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bigdig.ViperTestTaskBigDig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +717,7 @@
 				C1B01A741EFCDE2F0047BF4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
